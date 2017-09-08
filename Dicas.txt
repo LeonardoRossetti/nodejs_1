@@ -16,3 +16,43 @@ MongoDB
 	- É possível fazer um select para ver de forma mais estruturada:
 	ex. db.usuarios.find().toArray()
 
+
+------------------------------------------------------------------
+Git
+
+ > Para fazer um commit de qualquer alteração:
+1. Para criar e já mudar para o branch: 
+	git checkout -b bugfix/1361
+2. Remover os arquivos alterados indesejados:
+	git checkout -- pom.xml
+	git checkout -- "java/impl/PlatformBackendServer (teste38).launch"
+3. Adicionar os arquivos alterados:
+	git add .
+4. Efetuar o commit:
+	git commit -m "#APG-1361 - Removido verificação de permissão não necessária no listUserLandPages"
+5. Efetuar o push:
+	git push -u origin bugfix/apg-1361
+	
+	
+ > Para ver todos os branches locais:
+	git show-branch --list
+
+ > Para ver todos os branches remotos:
+	git branch -r
+
+ > For delete a local branch:
+	git branch -d <name local branch>
+
+------------------------------------------------------------------	
+Java
+
+Atalhos:
+CTRL + SHIFT + O -> para importar bibliotecas
+F4 ou Ctrl + Alt + G -> abre as referencias da classes, método ou propriedade (como o Shift + F12 do visual studio)
+Ctrl + Shift + R -> como o Ctrl + , do Visual Studio
+F3 -> vai até a implemetação do método/variável
+Ctrl + H -> para pesquisar qualquer texto dentro de qualquer fonte
+Ctrl + Shift + H -> para pesquisar qualquer arquivo fonte dentro do workspace
+Ctrl+Alt+H (é necessário estar no modo de visualização: Java EE) > pesquisa no workspace por todas as ocorrências do elemento sobre o qual o cursor está posicionado.
+Ctls+Shift+O -> add imports
+
