@@ -1,1 +1,18 @@
-NodeJs 
+MongoDB
+
+ > Para montar o ambiente:
+1. Após instalar o mongodb é preciso é preciso colocar a pasta 'bin' do mongo (C:\Program Files\MongoDB\Server\3.4\bin) na variável de ambiente do windows 'Path';
+2. Para startar o mongobd: mongod;
+3. Para criar um "database": use <nome database>
+	ex. use teste
+	Somente vai criar o database teste após inserir um registro dentro dele.
+4. Para criar uma collection (collections são semelhantes as tabelas do SQL)
+	db.usuarios.insert({nome:'Leonardo', idade: 22}) //vai criar a collection usuarios e inserir um registro
+5. Exibir as collections: show collections 
+6. Após isso possível inserir outros registros na collection usuarios, mesmo que com outros campos.
+	ex. db.usuarios.insert({nome:'Leonardo', idade: 22, profissao: 'Programador'})
+7. Fazer Select:
+	ex. db.usuarios.find() //no SQL: select * from usuarios
+	- É possível fazer um select para ver de forma mais estruturada:
+	ex. db.usuarios.find().toArray()
+
