@@ -35,6 +35,21 @@ Ferramentas para usar MongoDB sem ser pelo terminal:
 	- Robomongo 
 	- MongoLab
 
+------------------------------------------------------------------	
+MySQL
+
+O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banco de dados free, o MariaDB (https://mariadb.org/)
+
+
+
+Ferramentas para trabalhar com MySql:
+ - Sequelize (ORB tipo o Hibernate)
+
+Ferramentas para ter a visão gráfica das tabelas com MySQL:
+ - MySQL Workbrench
+ - HeidiSql
+ - Navicat
+
 
 ------------------------------------------------------------------
 Git
@@ -74,4 +89,10 @@ Ctrl + H -> para pesquisar qualquer texto dentro de qualquer fonte
 Ctrl + Shift + H -> para pesquisar qualquer arquivo fonte dentro do workspace
 Ctrl+Alt+H (é necessário estar no modo de visualização: Java EE) > pesquisa no workspace por todas as ocorrências do elemento sobre o qual o cursor está posicionado.
 Ctls+Shift+O -> add imports
+
+------------------------------------------------------------------
+Gerais
+
+ - O projeto myApp foi gerado a partir do ExpressJs (http://expressjs.com/pt-br/starter/installing.html)
+ - Para não precisar reiniciar o servidor de aplicação a cada alteração pode-se usar o Nodemon (https://nodemon.io/)
 
