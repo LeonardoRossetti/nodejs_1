@@ -68,19 +68,26 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
 
  ### Para fazer um commit de qualquer alteração:
 1. Para criar e já mudar para o branch: 
-	`git checkout -b bugfix/1361`
+	``` 
+	git checkout -b bugfix/1361
+	``` 
 2. Remover os arquivos alterados indesejados:
 	``` 
 	git checkout -- pom.xml
 	git checkout -- "java/impl/PlatformBackendServer.java" 
 	```
 3. Adicionar os arquivos alterados:
-	`git add .`
+	``` 
+	git add .
+	``` 
 4. Efetuar o commit:
-	`git commit -m "#APG-1361 - Removido verificação de permissão não necessária"`
+	``` 
+	git commit -m "#APG-1361 - Removido verificação de permissão não necessária"
+	``` 
 5. Efetuar o push:
-	`git push -u origin bugfix/apg-1361`
-	
+	``` 
+	git push -u origin bugfix/apg-1361
+	``` 	
 	
  * Para ver todos os branches locais:
 	git show-branch --list
