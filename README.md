@@ -3,7 +3,7 @@
  ### Para montar o ambiente:
 * Após instalar o mongodb é preciso é preciso colocar a pasta 'bin' do mongo (C:\Program Files\MongoDB\Server\3.4\bin) na variável de ambiente do windows 'Path'
 * Para startar o mongobd: **mongod**
-* Para criar um "database": **use <nome database>**
+* Para criar um "database": **use + nome_database**
 	```
 	ex. use teste
 	Somente vai criar o database teste após inserir um registro dentro dele.	//Para selecionar as databases:	show dbs
@@ -96,7 +96,7 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
 	**git branch -r**
 
  * For delete a local branch:
-	**git branch -d <name local branch>**
+	**git branch -d name_local_branch**
 
 
 ## Java
