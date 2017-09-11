@@ -6,13 +6,11 @@
 * Para criar um "database": use <nome database>
 	```
 	ex. use teste
-	Somente vai criar o database teste após inserir um registro dentro dele.
-	//Para selecionar as databases:	show dbs
+	Somente vai criar o database teste após inserir um registro dentro dele.	//Para selecionar as databases:	show dbs
 	```
 * Para criar uma collection (collections são semelhantes as tabelas do SQL)
 	```
-	db.usuarios.insert({nome:'Leonardo', idade: 22}) 
-	//vai criar a collection usuarios e inserir um registro
+	db.usuarios.insert({nome:'Leonardo', idade: 22}) //vai criar a collection usuarios e inserir um registro
 	```
 * Exibir as collections: show collections 
 * Após isso possível inserir outros registros na collection usuarios, mesmo que com outros campos.
@@ -54,7 +52,7 @@
 
 ## MySQL
 
-O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banco de dados free, o MariaDB (https://mariadb.org/)
+O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banco de dados free, o [MariaDB](https://mariadb.org/)
 
 
 
@@ -111,4 +109,6 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
  * Para não precisar reiniciar o servidor de aplicação a cada alteração pode-se usar o [Nodemon](https://nodemon.io/)
  * Vamos usar o [Express Load](https://github.com/jarradseers/express-load)
 
-  `Pxóxima aula [aqui](https://www.youtube.com/watch?v=gIiymSHdXS0)`
+
+
+  Pxóxima aula [aqui](https://www.youtube.com/watch?v=gIiymSHdXS0)
