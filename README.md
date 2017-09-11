@@ -96,7 +96,7 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
 	**git branch -r**
 
  * For delete a local branch:
-	**git branch -d name_local_branch**
+	**git branch -d + name_local_branch**
 
 
 ## Java
