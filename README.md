@@ -117,7 +117,7 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
  * O projeto myApp foi gerado a partir do [ExpressJs](http://expressjs.com/pt-br/starter/installing.html)
  * Para não precisar reiniciar o servidor de aplicação a cada alteração pode-se usar o [Nodemon](https://nodemon.io/)
  * Vamos usar o [Express Load](https://github.com/jarradseers/express-load)
+ * Vamos usar o [Bootstrap](http://getbootstrap.com/)
 
 
-
-  Pxóxima aula [aqui](https://www.youtube.com/watch?v=gIiymSHdXS0)
+  Pxóxima aula [aqui](https://www.youtube.com/watch?v=Jyc4LVXrx5o)
