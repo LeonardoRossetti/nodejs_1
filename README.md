@@ -19,7 +19,7 @@
 	```
 * Fazer Select:
 	```
-	ex.: db.usuarios.find() //no SQL: select * from usuarios
+	ex. db.usuarios.find() //no SQL: select * from usuarios
 	- É possível fazer um select para ver de forma mais estruturada:
 	ex. db.usuarios.find().toArray()
 	```
