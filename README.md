@@ -88,7 +88,11 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
 	``` 
 	git push -u origin bugfix/apg-1361
 	``` 	
-	
+6. For change the name of the local branch:
+	```
+	git branch -m new_name
+	```
+
  * Para ver todos os branches locais:
 	**git show-branch --list**
 
