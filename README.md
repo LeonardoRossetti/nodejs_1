@@ -102,7 +102,7 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
 	**git branch -m new_name**
 	
  * For create a new tag:
-	**git tag -a V1.0 -m "my version 1.0"**
+	**git tag -a V1.0 -m "my version 1.0"** <br>
 	**git push origin --tags**
 	
 
