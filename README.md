@@ -128,4 +128,4 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
  * Vamos usar o [Bootstrap](http://getbootstrap.com/)
 
 
-  Pxóxima aula [aqui](https://www.youtube.com/watch?v=YzuLXRv8PSk)
+  Pxóxima aula [aqui](https://www.youtube.com/watch?v=FYMp5GZvH3k)
