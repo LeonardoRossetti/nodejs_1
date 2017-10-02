@@ -126,7 +126,6 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
  * Para não precisar reiniciar o servidor de aplicação a cada alteração pode-se usar o [Nodemon](https://nodemon.io/)
  * Vamos usar o [Express Load](https://github.com/jarradseers/express-load)
  * Vamos usar o [Bootstrap](http://getbootstrap.com/)
- * Teste
 
 
-  Pxóxima aula [aqui](https://www.youtube.com/watch?v=-NCKrHa_XOk)
+  Pxóxima aula [aqui](https://www.youtube.com/watch?v=YzuLXRv8PSk)
