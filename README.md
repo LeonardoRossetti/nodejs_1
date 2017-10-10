@@ -29,7 +29,7 @@
 	- Para fazer de um registro específico:
 	db.usuarios.update({nome: "Vitor"}, {$set: {"idade": 99}}) //onde está passando a idade do vitor para 99
 	```
-* Para remover registros:
+* Para remover registros: 
 	```
 	var documento = db.usuarios.findOne({nome: 'Vitor'}); //seleciona o vitor
 	db.usuarios.remove(documento); //deleta o vitor
