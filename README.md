@@ -90,7 +90,7 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
 	``` 	
 
  * Para ver todos os branches locais:
-	**git show-branch --list**
+	**git branch --list**
 
  * Para ver todos os branches remotos:
 	**git branch -r**
