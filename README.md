@@ -104,7 +104,6 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
  * For create a new tag:
 	**git tag -a V1.0 -m "my version 1.0"** <br>
 	**git push origin --tags**
-	
 
 
 ## Java
@@ -128,4 +127,4 @@ O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banc
  * Vamos usar o [Bootstrap](http://getbootstrap.com/)
 
 
-  Pxóxima aula [aqui](https://www.youtube.com/watch?v=jVbGiRlt8BA)
+  Pxóxima aula [aqui](https://www.youtube.com/watch?v=Z8P_9_aWjss)
