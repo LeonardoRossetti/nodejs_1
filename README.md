@@ -1,129 +1,129 @@
-### Para acessar o [projeto](https://curso-node1.herokuapp.com/)
+### To access the [project](https://curso-node1.herokuapp.com/)
 
 ## MongoDB
 
- ### Para montar o ambiente:
-* Após instalar o mongodb é preciso é preciso colocar a pasta 'bin' do mongo (C:\Program Files\MongoDB\Server\3.4\bin) na variável de ambiente do windows 'Path'
-* Para startar o mongobd: **mongod**
-* Para criar um "database": **use + nome_database**
-	```
-	ex. use teste
-	Somente vai criar o database teste após inserir um registro dentro dele.	//Para selecionar as databases:	show dbs
-	```
-* Para criar uma collection (collections são semelhantes as tabelas do SQL)
-	```
-	db.usuarios.insert({nome:'Leonardo', idade: 22}) //vai criar a collection usuarios e inserir um registro
-	```
-* Exibir as collections: show collections 
-* Após isso possível inserir outros registros na collection usuarios, mesmo que com outros campos.
-	```
-	ex. db.usuarios.insert({nome:'Leonardo', idade: 22, profissao: 'Programador'})
-	```
-* Fazer Select:
-	```
-	ex. db.usuarios.find() //no SQL: select * from usuarios
-	- É possível fazer um select para ver de forma mais estruturada:
-	ex. db.usuarios.find().toArray()
-	```
-* Para fazer update:
-	```
-	db.usuarios.update({profissao:'Empresario'}, {$set:{profissao:'Motorista'}})
-	- Para fazer de um registro específico:
-	db.usuarios.update({nome: "Vitor"}, {$set: {"idade": 99}}) //onde está passando a idade do vitor para 99
-	```
-* Para remover registros: 
-	```
-	var documento = db.usuarios.findOne({nome: 'Vitor'}); //seleciona o vitor
-	db.usuarios.remove(documento); //deleta o vitor
-	```
-* Como apagar collecions:
-	```
-	db.usuarios.drop() //onde usuarios é o nome da collection
-	```
-* Como apagar databases:
-	```
-	db.dropDatabase() //necessário está usando a database
-	```
+### To set the environment:
+After installing mongodb you need to put a mongo 'bin' folder(C: \ Program Files \ MongoDB \ Server \ 3.4 \ bin) into a windows environment variable 'Path'
+* To start mongobd:**mongod**
+* To create a "database":**use + database_name**
+```
+eg. use testDB
+It only will create the testDB database after insert a registry. // To select databases: show dbs
+```
+* To create a collection(collections are similar to SQL tables)
+```
+db.users.insert({name: 'Leonardo', age: 22}) // will create a users collection and insert a record
+```
+* TO show the collections: show collections
+After that, you can add other records in the Users collection, even using other fields.
+```
+eg. db.users.insert({name: 'Leonardo', age: 22, profession: 'Programmer'})
+```
+* To do Selects:
+```
+eg. db.users.find() // using normal SQL: select * from users
+- You can do a select to see in a more structured way:
+eg. db.users.find().toArray()
+```
+* To do Updates:
+```
+db.users.update({profession: 'Entrepreneur'}, {$ set: {profession: 'Taxi Driver'}}
+- To make an update from an specific record:
+db.users.update({name: "John"}, {$ set: {"age": 99}} // where is passing the age of Victor to 99
+```
+* For registry remover:
+```
+var document = db.users.findOne({name: 'John'}); // select John
+db.users.remove(document); // deletes John
+```
+* Deleting collections:
+```
+db.users.drop() // where 'users' is the name of the collection
+```
+* How to delete databases:
+```
+db.dropDatabase() // required is using the database you want to drop
+```
 
 
 
-* Ferramentas para usar MongoDB sem ser pelo terminal:
-	* MongoVue 
-	* Robomongo 
+* Tools to use MongoDB other than by terminal:
+	* MongoVue
+	* Robomongo
 	* MongoLab
 
 ## MySQL
 
-O MySQL está para se tornar pago, logo os criadores do MySQL criaram outro banco de dados free, o [MariaDB](https://mariadb.org/)
+In the future you will have to pay to use MySQL, so the creators of MySQL have created another free database, [MariaDB](https://mariadb.org/)
 
 
 
-* Ferramentas para trabalhar com MySql:
-	* Sequelize (ORB tipo o Hibernate)
+* Tools to work with MySql:
+	* Sequelize(ORB is like Hibernate)
 
-* Ferramentas para ter a visão gráfica das tabelas com MySQL:
- 	* MySQL Workbrench
- 	* HeidiSql
- 	* Navicat
+* Tools for a graphical view of tables with MySQL:
+	* MySQL Workbrench
+	* HeidiSql
+	* Navicat
 
 ## Git
 
- ### Para fazer um commit de qualquer alteração:
-1. Para criar e já mudar para o branch: 
-	``` 
-	git checkout -b bugfix/1361
-	``` 
-2. Remover os arquivos alterados indesejados:
-	``` 
-	git checkout -- pom.xml
-	git checkout -- "java/impl/PlatformBackendServer.java" 
-	```
-3. Adicionar os arquivos alterados:
-	``` 
-	git add .
-	``` 
-4. Efetuar o commit:
-	``` 
-	git commit -m "#APG-1361 - Removido verificação de permissão não necessária"
-	``` 
-5. Efetuar o push:
-	``` 
-	git push -u origin bugfix/apg-1361
-	``` 	
+### To commit any change:
+1. To create and to change for the branch:
+```
+git checkout -b bugfix/1361
+```
+2. Remove the unwanted changed files:
+```
+git checkout - pom.xml
+git checkout - "java/impl/PlatformBackendServer.java"
+```
+3. Add the changed files:
+```
+git add .
+```
+4. To Commit:
+```
+git commit -m "# APG-1361 - Removed permission check is not required"
+```
+5. To Push:
+```
+git push -u source bugfix/apg-1361
+```
 
- * Para ver todos os branches locais:
-	**git branch --list**
+* To see all local branches:
+**git branch --list**
 
- * Para ver todos os branches remotos:
-	**git branch -r**
+* To see all remote branches:
+**git branch -r**
 
- * For delete a local branch:
-	**git branch -d + name_local_branch**
-	
- * For change the name of the local branch:
-	**git branch -m new_name**
-	
- * For create a new tag:
-	**git tag -a V1.0 -m "my version 1.0"** <br>
-	**git push origin --tags**
+* To delete a local branch:
+**git branch -d + local_name_branch**
+
+* To change the name of the local branch:
+**git branch -m new_name**
+
+* To create a new tag:
+**tag git -a V1.0 -m "my version 1.0"** <br>
+**git push origin --tags**
 
 
 ## Java
 
-### Atalhos:
-* **CTRL + SHIFT + O:** para importar bibliotecas
-* **F4 ou Ctrl + Alt + G:** abre as referencias da classes, método ou propriedade (como o Shift + F12 do visual studio)
-* **Ctrl + Shift + R:** como o Ctrl + , do Visual Studio
-* **F3:** vai até a implemetação do método/variável
-* **Ctrl + H:** para pesquisar qualquer texto dentro de qualquer fonte
-* **Ctrl + Shift + H:** para pesquisar qualquer arquivo fonte dentro do workspace
-* **Ctrl+Alt+H:** (é necessário estar no modo de visualização: Java EE) > pesquisa no workspace por todas as ocorrências do elemento sobre o qual o cursor está posicionado.
-* **Ctls+Shift+O:** add imports
+### Shortcuts:
+***CTRL + SHIFT + O:** to import libraries
+***F4 or Ctrl + Alt + G:** opens as class, method, or property references(such as Visual Studio's Shift + F12)
+* Ctrl + Shift + R: Like Ctrl +, Visual Studio
+***F3:** goes to method/variable implementation
+* Ctrl + H:**for any text within any source
+* Ctrl + Shift + H:**to search any source file within the workspace
+* Ctrl + Alt + H:**Search in the workspace for all occurrences of the indicator on the cursor is positioned.
+***Ctls + Shift + O:** add imports
 
 
-## Gerais
+## General
 
- * O projeto myApp foi gerado a partir do [ExpressJs](http://expressjs.com/pt-br/starter/installing.html)
- * Para não precisar reiniciar o servidor de aplicação a cada alteração pode-se usar o [Nodemon](https://nodemon.io/)
- * Vamos usar o [Express Load](https://github.com/jarradseers/express-load)
- * Vamos usar o [Bootstrap](http://getbootstrap.com/)
+* The myApp project was generated from ExpressJs(http://expressjs.com/en/starter/installing.html)
+* To remove the data server from an application you can use [Nodemon](https://nodemon.io/)
+* Let's use [Express Load](https://github.com/jarradseers/express-load)
+* Let's use [Bootstrap](http://getbootstrap.com/)
