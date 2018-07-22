@@ -4,8 +4,8 @@
 
 ### To set the environment:
 After installing mongodb you need to put a mongo 'bin' folder(C: \ Program Files \ MongoDB \ Server \ 3.4 \ bin) into a windows environment variable 'Path'
-* To start mongobd:**mongod**
-* To create a "database":**use + database_name**
+* To start mongobd: **mongod**
+* To create a "database": **use + database_name**
 ```
 eg. use testDB
 It only will create the testDB database after insert a registry. // To select databases: show dbs
@@ -14,8 +14,8 @@ It only will create the testDB database after insert a registry. // To select da
 ```
 db.users.insert({name: 'Leonardo', age: 22}) // will create a users collection and insert a record
 ```
-* TO show the collections: show collections
-After that, you can add other records in the Users collection, even using other fields.
+* To show the collections: show collections
+* After that, you can add other records in the Users collection, even using other fields.
 ```
 eg. db.users.insert({name: 'Leonardo', age: 22, profession: 'Programmer'})
 ```
@@ -31,7 +31,7 @@ db.users.update({profession: 'Entrepreneur'}, {$ set: {profession: 'Taxi Driver'
 - To make an update from an specific record:
 db.users.update({name: "John"}, {$ set: {"age": 99}} // where is passing the age of Victor to 99
 ```
-* For registry remover:
+* To remove a registry:
 ```
 var document = db.users.findOne({name: 'John'}); // select John
 db.users.remove(document); // deletes John
@@ -111,19 +111,19 @@ git push -u source bugfix/apg-1361
 ## Java
 
 ### Shortcuts:
-***CTRL + SHIFT + O:** to import libraries
-***F4 or Ctrl + Alt + G:** opens as class, method, or property references(such as Visual Studio's Shift + F12)
-* Ctrl + Shift + R: Like Ctrl +, Visual Studio
-***F3:** goes to method/variable implementation
-* Ctrl + H:**for any text within any source
-* Ctrl + Shift + H:**to search any source file within the workspace
-* Ctrl + Alt + H:**Search in the workspace for all occurrences of the indicator on the cursor is positioned.
-***Ctls + Shift + O:** add imports
+* **CTRL + SHIFT + O:** to import libraries
+* **F4 or Ctrl + Alt + G:** opens as class, method, or property references(such as Visual Studio's Shift + F12)
+* **Ctrl + Shift + R:** Like Ctrl +, Visual Studio
+* **F3:** goes to method/variable implementation
+* **Ctrl + H:**for any text within any source
+* **Ctrl + Shift + H:**to search any source file within the workspace
+* **Ctrl + Alt + H:**Search in the workspace for all occurrences of the indicator on the cursor is positioned.
+* **Ctls + Shift + O:** add imports
 
 
 ## General
 
-* The myApp project was generated from ExpressJs(http://expressjs.com/en/starter/installing.html)
+* The myApp project was generated from [ExpressJs](http://expressjs.com/en/starter/installing.html)
 * To remove the data server from an application you can use [Nodemon](https://nodemon.io/)
 * Let's use [Express Load](https://github.com/jarradseers/express-load)
 * Let's use [Bootstrap](http://getbootstrap.com/)
