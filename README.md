@@ -115,9 +115,9 @@ git push -u source bugfix/apg-1361
 * **F4 or Ctrl + Alt + G:** opens as class, method, or property references(such as Visual Studio's Shift + F12)
 * **Ctrl + Shift + R:** Like Ctrl +, Visual Studio
 * **F3:** goes to method/variable implementation
-* **Ctrl + H:**for any text within any source
-* **Ctrl + Shift + H:**to search any source file within the workspace
-* **Ctrl + Alt + H:**Search in the workspace for all occurrences of the indicator on the cursor is positioned.
+* **Ctrl + H:** for any text within any source
+* **Ctrl + Shift + H:** to search any source file within the workspace
+* **Ctrl + Alt + H:** Search in the workspace for all occurrences of the indicator on the cursor is positioned.
 * **Ctls + Shift + O:** add imports
 
 
